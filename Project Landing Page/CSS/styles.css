@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: rgb(69, 66, 66)
+}
+
+a {
+    text-decoration: none;
+    color: #8d8f94;
+    font-size: 15px;
+}
+
+.box-1 {
+    background-color: #8d8f94;
+    width: 650px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    padding: 0 15rem;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5rem;
+    align-items: center;
+    
+}
+
+.front {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frontc > h1 {
+    font-size: 48px;
+    text-align: left;
+    padding: 0;
+}
+.frontc > p {
+    font-size: 18px;
+}
+.frontc {
+    padding: 0 5rem 0 0;
+}
+
+li {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 3px;
+    border-style: none;
+    padding: 5px 20px;
+}
+button>a {
+    color: #f9faf8;
+}
+
+body > h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20rem;
+    justify-content: center;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border-color: #3882F6;
+    border-radius: 15px;
+    border-style:inset;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.container > p {
+    padding:0.6rem;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    padding: 5rem 25rem;
+}
+.quotes > h1 {
+    font-weight: 100;
+}
+.quotes > h3 {
+    text-align: right;
+}
+
+.advert {
+    margin: 5rem 25rem;
+    background-color: #3882F6;
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.advert > button {
+    border-style:  solid;
+    border-color: white;
+    height: 45px;
+}
+
+.adtext {
+    font-size: 10px;
+    font-weight: 100;
+    padding: 1rem 1rem;
+}
+.adtext > h3 {
+    color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
